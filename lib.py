@@ -12,7 +12,8 @@ class library():
             for book in book_lend:
                 if book in self.books:
                     self.books.remove(book)
-                    print(f'You have successfully borrowed {book_lend}')
+                    print(f'You have successfully borrowed {book}')
+
                 else:
                 
                     print("The book is not available")
